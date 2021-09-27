@@ -1,0 +1,120 @@
+html {
+    background-image: url("../_img/Site/Bento.png");
+}
+main {
+    width:950px;
+    margin:-1px auto 10px;
+    border:2px solid rgb(201, 48, 48);
+    background-color: rgba(250,250,250,0.8);
+    font-family:'Times New Roman', Times, serif;
+}
+header {    
+    height: 150px;
+}
+nav {
+    width: 950px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #d14a0c;
+}
+nav ul {
+    list-style:none;
+    margin:0;
+    padding: 5px;
+}
+nav ul li {
+    display:inline-block;
+}
+nav ul li a {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px 80px;
+}
+nav ul li a:hover {
+    background-color: #cf7f5a;
+}
+article {
+    float:left;
+    margin:30px 20px;
+    width:600px;
+}
+article#a {
+    float:left;
+    margin:30px 20px;
+    width:920px;
+}
+footer {
+    clear:both;
+    width:400px;
+    margin:0 auto;
+    font-size:0.75em;
+    text-align:center;
+    background-color:#d14a0c;
+    padding: 2px;
+}
+h1, h2, h4 {
+    font-family:'Times New Roman', Times, serif;
+    color:#d14a0c;
+    font-style:italic;
+    letter-spacing:-0.05em;
+}
+h1 {
+    font-size:2.6em;
+    margin:0 5px;
+    text-align: center;
+}
+h4 {
+    font-size:1.6em;
+    margin:0 5px;
+}
+h2#local{
+    margin-top: 110px;
+}
+p, li, ul, small {
+    font-family:'Times New Roman', Times, serif;
+    font: size 1.0em;
+    color:rgb(0, 0, 0);
+    line-height:1.8;
+}
+img#config{
+    border: solid 2px #d14a0c;
+    width: 275px;
+    height: 200px;
+    float:right; 
+    margin-right: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img#cliente{
+    border: solid 2px #d14a0c;
+    width: 240px;
+    height: 180px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+video{
+    border: solid 2px #d14a0c;
+    width: 275px;
+    height: 200px;
+    margin-right: 30px; 
+    margin-top: 10px;
+}
+aside#l{
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    background-color: #d14a0c;
+}
+img#head{
+    width: 950px;
+    height: 150px;
+}
